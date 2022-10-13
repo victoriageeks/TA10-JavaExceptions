@@ -53,8 +53,5 @@ public class GenerarNumeros {
 	}
 	
 	
-	@Override
-	public String toString() {
-		return "Numero generado: " + numAleatorio;
-	}
+	
 }
