@@ -15,7 +15,7 @@ public class adivinarApp {
 			try{
 				System.out.println("Introduce un número:");
 				numIntroducido = sc.nextInt();
-				//System.out.println("SECRETO: numero correcto "+gn.getNumAleatorio());
+				//System.out.println("SECRETO: numero correcto "+gn.getNumAleatorio()); 
 				gn.comprobarNumero(numIntroducido);
 				
 				
