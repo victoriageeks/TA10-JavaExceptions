@@ -12,15 +12,15 @@ public class passwordApp {
         int longitud=sc.nextInt();
 
         
-        Password listaPassword[]=new Password[tamaño];
-        boolean fortalezaPassword[]=new boolean[tamaño];
+        Password listaContraseña[]=new Password[tamaño];
+        boolean contraseñaFuerte[]=new boolean[tamaño];
   
        
-        for(int i=0;i<listaPassword.length;i++){
-            listaPassword[i]=new Password(longitud);
-            fortalezaPassword[i]=listaPassword[i].esFuerte();
+        for(int i=0;i<listaContraseña.length;i++){
+        	listaContraseña[i]=new Password(longitud);
+        	contraseñaFuerte[i]=listaContraseña[i].esFuerte();
             
-            System.out.println("Contraseña: "+listaPassword[i].getContraseña()+"\nEs fuerte?: "+fortalezaPassword[i]);
+            System.out.println("Contraseña: "+listaContraseña[i].getContraseña()+"\nEs fuerte?: "+contraseñaFuerte[i]);
             System.out.println("------------------------------------");
         }
         sc.close();
