@@ -73,9 +73,9 @@ import java.util.Scanner;
 		public static Calculadora pedir2Nums(Calculadora c) {
 			
 			System.out.println("Introduce el primer número para operar:");
-			c.setX(sc.nextDouble());
+			c.setPrimerNum(sc.nextDouble());
 			System.out.println("Introduce el segundo número:");
-			c.setY(sc.nextDouble());
+			c.setSegundoNum(sc.nextDouble());
 			
 			return c;
 		}
@@ -83,7 +83,7 @@ import java.util.Scanner;
 		public static Calculadora pedir1Num(Calculadora c) {
 			
 			System.out.println("Introduce el número:");
-			c.setX(sc.nextDouble());
+			c.setPrimerNum(sc.nextDouble());
 			
 			return c;
 		}

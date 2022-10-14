@@ -45,19 +45,19 @@ public class Calculadora {
 		
 	}
 
-	public double getX() {
+	public double getPrimerNum() {
 		return primerNum;
 	}
 
-	public void setX(double primerNum) {
+	public void setPrimerNum(double primerNum) {
 		this.primerNum = primerNum;
 	}
 
-	public double getY() {
+	public double getSegundoNum() {
 		return segundoNum;
 	}
 
-	public void setY(double segundoNum) {
+	public void setSegundoNum(double segundoNum) {
 		this.segundoNum = segundoNum;
 	}
 	
